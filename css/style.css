@@ -1,7 +1,9 @@
+
+
+
 body {
   margin:0;
   padding:0;
-  min-width:1200px;
 
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
@@ -10,6 +12,30 @@ body {
   color: #000000;
 }
 
+img {
+  border-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1160px;
+}
+
+.main-header {
+  margin: 0;
+  min-width:1200px;
+  padding:50px 0 0;
+  background-color: #eeeeee;
+}
+
+
+
+
+/*
 a {
   text-decoration: none;
 }
@@ -177,3 +203,4 @@ a {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 
 }
+*/
