@@ -1118,16 +1118,6 @@ margin-right: 10px;
 /************FOOTER END***********/
 
 /*************MODAL**************/
-
-.modal-show,
-.modal-window .modal-login {
-  display: block;
-}
-
-.modal-show {
-  animation: bounce 0.6s;
-}
-
 .modal-login {
   display: none;
   top: -20px;
@@ -1142,6 +1132,28 @@ margin-right: 10px;
   background-color: #ffffff;
   z-index: 101;
   box-shadow: 0 30px 50px rgba(0,0,0, 0.7);
+}
+
+
+.modal-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0% {
+    transform:translateY(-2000px);
+  }
+
+  70% {
+    transform:translateY(30px);
+  }
+  90% {
+    transform:translateY(-10px);
+  }
+  100% {
+    transform:translateY(0);
+  }
 }
 
 .modal-login h2 {
